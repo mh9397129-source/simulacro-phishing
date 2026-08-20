@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulacro de Phishing Educativo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --blue: #1f4e79;
+      --light-blue: #e6f0fa;
+      --gray: #f3f3f3;
+      --dark-gray: #555;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #ffffff;
+      color: #222;
+    }
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+    .header {
+      background: var(--blue);
+      color: #fff;
+      padding: 18px 20px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+    }
+    .header-title {
+      font-size: 0.95rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin: 0 0 4px;
+    }
+    .header-subtitle {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin: 0;
+    }
+    .section {
+      margin-bottom: 22px;
+      padding: 16px 18px;
+      border-radius: 8px;
+      background: var(--gray);
+    }
+    .section.alt {
+      background: var(--light-blue);
+    }
+    .section-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--blue);
+      margin: 0 0 8px;
+    }
+    p {
+      margin: 6px 0;
+      line-height: 1.5;
+      color: var(--dark-gray);
+    }
+    ul {
+      margin: 8px 0 4px 18px;
+      padding: 0;
+    }
+    li {
+      margin: 4px 0;
+      color: var(--dark-gray);
+    }
+    .footer {
+      margin-top: 26px;
+      padding-top: 12px;
+      border-top: 1px solid #ddd;
+      font-size: 0.9rem;
+      color: var(--dark-gray);
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--blue);
+      color: #fff;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- Encabezado -->
+    <header class="header">
+      <div class="header-title">EJERCICIO DE SEGURIDAD INFORMÁTICA</div>
+      <div class="header-subtitle">SIMULACRO DE PHISHING EDUCATIVO</div>
+    </header>
+
+    <!-- Introducción -->
+    <section class="section alt">
+      <p><strong>Estimado usuario:</strong></p>
+      <p>
+        Usted ha accedido a este enlace como parte de un <strong>ejercicio interno de concientización sobre ciberseguridad</strong>.
+        Este simulacro tiene como finalidad fortalecer las capacidades del personal frente a intentos de
+        <strong>phishing</strong>, ingeniería social y difusión de información no verificada.
+      </p>
+      <p><strong>No se ha recopilado información personal, credenciales ni datos sensibles.</strong></p>
+    </section>
+
+    <!-- Resultado del ejercicio -->
+    <section class="section">
+      <h2 class="section-title">Resultado del ejercicio</h2>
+      <p>
+        El enlace que usted abrió simulaba una comunicación relacionada con temas administrativos sensibles,
+        con el propósito de evaluar la atención, verificación y análisis previo a la apertura de enlaces externos.
+      </p>
+      <p>Este comportamiento es común en campañas reales de phishing, donde se utilizan:</p>
+      <ul>
+        <li>Asuntos urgentes o de interés institucional.</li>
+        <li>Enlaces acortados.</li>
+        <li>Mensajes con tono formal o directivo.</li>
+        <li>Información aparentemente relacionada con procesos internos.</li>
+      </ul>
+    </section>
+
+    <!-- Buenas prácticas -->
+    <section class="section alt">
+      <h2 class="section-title">Buenas prácticas de seguridad</h2>
+      <p>Para evitar incidentes reales, recuerde:</p>
+      <ul>
+        <li>Verificar siempre la fuente oficial antes de abrir enlaces.</li>
+        <li>Confirmar la autenticidad de documentos sensibles.</li>
+        <li>Evitar acceder a enlaces acortados sin contexto.</li>
+        <li>Reportar cualquier comunicación sospechosa al área de Seguridad Informática.</li>
+      </ul>
+    </section>
+
+    <!-- Propósito -->
+    <section class="section">
+      <h2 class="section-title">Propósito del simulacro</h2>
+      <p>
+        Este ejercicio forma parte de las acciones de fortalecimiento institucional en materia de
+        <strong>ciberseguridad y protección de la información</strong>.
+      </p>
+      <p>
+        Gracias por su participación y compromiso con la seguridad digital.
+      </p>
+    </section>
+
+    <!-- Pie -->
+    <footer class="footer">
+      <div class="badge">Ejercicio interno de formación y concientización</div><br>
+      <span>Documento generado para fines educativos y de sensibilización en seguridad informática.</span>
+    </footer>
+  </div>
+</body>
+</html>
+
